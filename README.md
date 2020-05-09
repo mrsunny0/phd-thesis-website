@@ -8,8 +8,8 @@
 - Shalmalee
 
 ## Thesis material
-- PhD thesis (reference repo or PDF)
-- Patent (reference URL)
+- PhD thesis (reference repo or PDF) DSpace - https://dspace.mit.edu/handle/1721.1/124184
+- Patent (reference URL) - https://patents.google.com/patent/US20180237321A1/en
 
 ## Grants
 - NSF
