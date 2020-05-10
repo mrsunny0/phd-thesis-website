@@ -1,0 +1,24 @@
+# miscellaneous
+.sass-cache
+.jekyll-metadata
+.vscode
+
+# internal tools
+_site
+_example
+
+# illustrative drafts
+.ai
+.pptx
+raw/
+
+# node modules
+node_modules
+
+# testing 
+test.html
+test.js
+
+# misc
+.DS_Store
+

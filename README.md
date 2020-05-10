@@ -1,34 +1,33 @@
-## Projects
-- Nature Sustainability (PDF)
-- Nature Communications (PDF)
-- BiorXiv (PDF)
+# PhD Website
 
-## Collaborations
-- Zijay
-- Shalmalee
+A website containing the experiences and knowledge I have accrued during my PhD
 
-## Thesis material
-- PhD thesis (reference repo or PDF)
-- Patent (reference URL)
+## Website Purpose
 
-## Grants
-- NSF
-- CEHS
-- Bose
-- Shell
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Presentations
-- BATS poster
-  - 2016 (got pdf)
-  - 2018 (got pdf)
-- BE Retreat need to get logo -
-- KI focus (got flyer)  
-- CEHS Poster Award (got image) - http://news.mit.edu/2018/center-environmental-health-sciences-selects-poster-winners-0420
+## Built With
 
-## Volunteer experience
-- MIT Comm Lab - https://mitcommlab.mit.edu/be/fellows_staff/george-sun-2/
-  - Public speaking - https://mitcommlab.mit.edu/be/commkit/public-speaking-nonverbal/
-  - File structur organization - https://mitcommlab.mit.edu/be/commkit/file-structure/
-  - BECL github - https://github.com/MIT-BECL (or https://mitcommlab.mit.edu/be/commkit/github-resources/)
-- David Nino course (need to get materials) -
-- Innovation UNE (need to get images) - https://www.une.edu/provost/resources/makerspace-and-student-innovation-challenge
+* [Github Pages](https://rometools.github.io/rome/) - Used to host 
+* [HTM5, CSS3, and SCSS](https://rometools.github.io/rome/) - Front-end web technology
+* [Jekyll](https://maven.apache.org/) - Framework to render site on github
+* [Gulp 4](https://rometools.github.io/rome/) - Development framework to build locally
+* [BEM](http://getbem.com/) - A useful methodology for working with HTML and CSS
+* [VSCode](http://www.dropwizard.io/1.0.2/docs/) - Popular IDE that was developed on
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **George L. Sun** - *Main Contributor* - [Personal Page](https://github.com/mrsunny0)
+* **Sun Websites** - *Host* - [Company Page]()
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. (*Currently under development*)
+
+## Acknowledgments
+
+* Name specific people/org here

@@ -1,0 +1,131 @@
+- id: id1
+  heading: Research Areas
+  description: description
+  group: 
+    - subheading: Chemical conversion using sulfur reducing yeast
+      caption: YYY 
+      subgroup: 
+        - img: assets/img/section1_project1_image2_3.png
+          link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+          caption: ccc
+          alt: bbb
+        - img: assets/img/section1_project1_image1.jpg
+          link: http://synbio.mit.edu/news/
+          caption: aaa
+          alt: bbb
+        - img: assets/img/section1_project1_image3_2.jpg
+          link: https://www.linkedin.com/in/shalmaleepandit/
+          caption: ccc
+          alt: bbb
+    - subheading: Using yeast as hyperaccumulators
+      caption: YYY 
+      subgroup: 
+        - img: assets/img/section1_project2_image1.png
+          link: http://synbio.mit.edu/news/
+          caption: aaa
+          alt: bbb
+        - img: assets/img/section1_project2_image2_2.png
+          link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+          caption: ccc
+          alt: bbb
+        - img: assets/img/section1_project2_image3.jpg
+          link: https://www.linkedin.com/in/shalmaleepandit/
+          caption: ccc
+          alt: bbb
+    - subheading: Creating sponge-like yeast filters
+      caption: YYY 
+      subgroup: 
+        - img: assets/img/section1_project3_image4_3.png
+          link: https://www.linkedin.com/in/shalmaleepandit/
+          caption: ccc
+          alt: bbb
+        - img: assets/img/section1_project3_image2.png
+          link: http://synbio.mit.edu/news/
+          caption: aaa
+          alt: bbb
+        - img: assets/img/section1_project3_image3.png
+          link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+          caption: ccc
+          alt: bbb
+
+
+- id: id2
+  heading: Collaborations
+  description: description
+  group: 
+    - subheading: AAA
+      caption: YYY 
+      subgroup: 
+        - img: assets/img/section2_collaboration_1.png
+          link: http://synbio.mit.edu/news/
+          caption: aaa
+          alt: bbb
+        - img: assets/img/section2_collaboration_film.png
+          link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+          caption: ccc
+          alt: bbb
+        - img: assets/img/section2_collaboration_zijay.jpg
+          link: https://www.linkedin.com/in/shalmaleepandit/
+          # link: https://scholar.google.com/citations?user=hI8s29IAAAAJ&hl=en
+          caption: ccc
+          alt: bbb
+    - subheading: AAA
+      img: assets/img/section2_collaboration_2.jpg
+      link: http://belcherlab.mit.edu/
+      caption: YYY 
+      alt: filler
+        # - img: assets/img/section2_collaboration_2.jpg
+        #   link: http://belcherlab.mit.edu/
+        #   caption: aaa
+        #   alt: bbb
+        # - img: assets/img/section2_collaboration_shalmalee.jpg
+        #   link: https://www.linkedin.com/in/shalmaleepandit/
+        #   caption: ccc
+        #   alt: bbb
+
+- id: id3
+  heading: Awards
+  description: description
+  group: 
+    - subheading: NSF Graduate Fellowship
+      img: assets/img/500.png
+      link: https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=6201
+      alt: filler
+      caption: YYY 
+    - subheading: MIT Presidential Fellowship
+      img: assets/img/500.png
+      link: https://web.mit.edu/provost/presfellow/
+      alt: filler
+      caption: YYY 
+    - subheading: Bose Fellowship
+      link: https://bosefellows.mit.edu/
+      img: assets/img/500.png
+      alt: filler
+      caption: YYY 
+
+- id: id3
+  heading: Thesis
+  description: description
+  group: 
+    - subheading: Awarded Dissertation
+      caption: YYY 
+      subgroup: 
+        - img: assets/img/250.png
+          link: https://mrsunny0.github.io/phd-thesis/
+          caption: thesis
+          alt: bbb
+        - img: assets/img/500.png
+          link: https://dspace.mit.edu/handle/1721.1/124184
+          caption: ccc
+          alt: dpsace
+
+- id: id4
+  heading: Patents
+  description: description
+  group: 
+    - subheading: BBB
+      img: assets/img/500.png
+      link: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20180237321.PGNR.
+      # link: https://pdfaiw.uspto.gov/.aiw?Docid=20180237321
+      alt: filler
+      caption: YYY 
