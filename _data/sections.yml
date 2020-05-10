@@ -1,5 +1,5 @@
 - id: id1
-  heading: heading1
+  heading: Research Areas
   description: description
   group: 
     - subheading: AAA
@@ -26,13 +26,24 @@
       alt: filler   
 
 - id: id2
-  heading: heading2
+  heading: Collaborations
   description: description
   group: 
     - subheading: AAA
       caption: YYY 
       subgroup: 
-        - img: assets/img/250.png
+        - img: assets/img/section2_collaboration_1.jpg
+          caption: aaa
+          alt: bbb
+          link: www.google.com
+        - img: assets/img/500.png
+          caption: ccc
+          alt: bbb
+          link: www.google.com
+    - subheading: AAA
+      caption: YYY 
+      subgroup: 
+        - img: assets/img/section2_collaboration_2.jpg
           caption: aaa
           alt: bbb
           link: www.google.com
@@ -41,43 +52,32 @@
           alt: bbb
           link: www.google.com
         - img: assets/img/500.png
-          caption: ddd
+          caption: ccc
           alt: bbb
           link: www.google.com
-    - subheading: BBB
-      caption: YYY 
-      img: assets/img/250.png
-      alt: filler   
-      link: www.google.com
 
 - id: id3
-  heading: heading3
+  heading: Thesis
   description: description
   group: 
-    - subheading: AAA
+    - subheading: Awarded Dissertation
       caption: YYY 
-      subgroup:
+      subgroup: 
         - img: assets/img/250.png
-          caption: YYY
-          alt: YYY
-          link: www.google.com
-        - img: assets/img/250.png
-          caption: mal
-          alt: 092
-          link: www.google.com
-      alt: filler
+          link: https://mrsunny0.github.io/phd-thesis/
+          caption: thesis
+          alt: bbb
+        - img: assets/img/500.png
+          link: https://dspace.mit.edu/handle/1721.1/124184
+          caption: ccc
+          alt: dpsace
+
+- id: id4
+  heading: Patents
+  description: description
+  group: 
     - subheading: BBB
-      caption: YYY 
       img: assets/img/500.png
+      link: www.google.com
       alt: filler
-      link: www.google.com
-    - subheading: CCC
       caption: YYY 
-      img: assets/img/250.png
-      alt: filler        
-      link: www.google.com 
-    - subheading: DDD
-      caption: YYY 
-      img: assets/img/250.png
-      alt: filler         
-      link: www.google.com
