@@ -2,91 +2,104 @@
   heading: Research Areas
   description: description
   group: 
-    - subheading: Engineering sulfer-reducing yeasts
+    - subheading: Engineering sulfer-<br>reducing yeasts
       subgroup: 
         - img: assets/img/projects/sections.jpg
           content:
-            url: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
-            alt-link: www.google.com
+            # url: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+            # alt-link: www.google.com
           caption: ccc
           alt: bbb
         - img: assets/img/projects/vials.jpg
           content:
-            url: http://synbio.mit.edu/news/
-            alt-link: www.google.com
+            # url: http://synbio.mit.edu/news/
+            # alt-link: www.google.com
           caption: aaa
           alt: bbb
         - img: assets/img/projects/vials.jpg
           content:
-            url: https://www.linkedin.com/in/shalmaleepandit/
-            alt-link: www.google.com
+            # url: https://www.linkedin.com/in/shalmaleepandit/
+            # alt-link: www.google.com
           caption: ccc
           alt: bbb
-    - subheading: Using yeast as hyperaccumulators
+      #
+    - subheading: Designing yeast hyperaccumulators
       caption: YYY 
       subgroup: 
-        - img: assets/img/section1_project2_image1.png
-          link: http://synbio.mit.edu/news/
+        - img: assets/img/projects/transporter.jpg
+          content:
+            # url: http://synbio.mit.edu/news/
+            # alt-link:
           caption: aaa
           alt: bbb
-        - img: assets/img/section1_project2_image2_2.png
-          link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+        - img: assets/img/projects/staining.jpg
+          content:
+            # url: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+            # alt-link:
           caption: ccc
           alt: bbb
-        - img: assets/img/section1_project2_image3.jpg
-          link: https://www.linkedin.com/in/shalmaleepandit/
+        - img: assets/img/projects/density.jpg
+          content:
+            # url: https://www.linkedin.com/in/shalmaleepandit/
+            # alt-link:
           caption: ccc
           alt: bbb
-    - subheading: Creating sponge-like yeast filters
-      caption: YYY 
+      # 
+    - subheading: Creating<br>yeast sponges 
       subgroup: 
-        - img: assets/img/section1_project3_image4_3.png
-          link: https://www.linkedin.com/in/shalmaleepandit/
+        - img: assets/img/projects/data.jpg
+          content: 
+            # url: https://www.linkedin.com/in/shalmaleepandit/
+            # alt-link: 
           caption: ccc
           alt: bbb
-        - img: assets/img/section1_project3_image2.png
-          link: http://synbio.mit.edu/news/
+        - img: assets/img/projects/gs.jpg
+          content: 
+            # url: http://synbio.mit.edu/news/
+            # alt-link: 
           caption: aaa
           alt: bbb
-        - img: assets/img/section1_project3_image3.png
-          link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+        - img: assets/img/projects/tem.jpg
+          content: 
+            # content: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+            # alt-link: 
           caption: ccc
           alt: bbb
 
 
-# - id: id2
-#   heading: Collaborations
-#   description: description
-#   group: 
-#     - subheading: AAA
-#       caption: YYY 
-#       subgroup: 
-#         - img: assets/img/section2_collaboration_1.png
-#           link: http://synbio.mit.edu/news/
-#           caption: aaa
-#           alt: bbb
-#         - img: assets/img/section2_collaboration_film.png
-#           link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
-#           caption: ccc
-#           alt: bbb
-#         - img: assets/img/section2_collaboration_zijay.jpg
-#           link: https://www.linkedin.com/in/shalmaleepandit/
-#           # link: https://scholar.google.com/citations?user=hI8s29IAAAAJ&hl=en
-#           caption: ccc
-#           alt: bbb
-#     - subheading: AAA
-#       img: assets/img/section2_collaboration_2.jpg
-#       link: http://belcherlab.mit.edu/
-#       caption: YYY 
-#       alt: filler
-#         # - img: assets/img/section2_collaboration_2.jpg
-#         #   link: http://belcherlab.mit.edu/
-#         #   caption: aaa
-#         #   alt: bbb
-#         # - img: assets/img/section2_collaboration_shalmalee.jpg
-#         #   link: https://www.linkedin.com/in/shalmaleepandit/
-#         #   caption: ccc
-#         #   alt: bbb
+- id: id2
+  heading: Collaborations
+  description: description
+  group: 
+    - subheading: AAA
+      subgroup: 
+        - img: assets/img/collaborations/synbio.jpg
+          content:
+            # link: http://synbio.mit.edu/news/
+            # alt-link: 
+          caption: aaa
+          alt: bbb
+        - img: assets/img/collaborations/film.jpg
+          content:
+            # link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+            # alt-link: 
+          caption: ccc
+          alt: bbb
+      # 
+    - subheading: AAA
+      subgroup:
+        - img: assets/img/collaborations/lights.jpg
+          content:
+            # url: http://belcherlab.mit.edu/
+            # alt-link:
+          caption: YYY 
+          alt: filler
+        - img: assets/img/collaborations/cuvettes.jpg
+          content:
+            # url: http://belcherlab.mit.edu/
+            # alt-link:
+          caption: YYY 
+          alt: filler
 
 # - id: id3
 #   heading: Awards

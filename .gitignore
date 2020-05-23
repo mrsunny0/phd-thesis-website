@@ -8,9 +8,9 @@ _site
 _example
 
 # illustrative drafts
-src/img/raw/*
-src/video/raw/*
-!src/img/raw/favicon.ai
+**/_download
+**/_drafts
+**/_raw
 
 # node modules
 node_modules
