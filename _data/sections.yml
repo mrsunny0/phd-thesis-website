@@ -66,20 +66,19 @@
           caption: ccc
           alt: bbb
 
-
 - id: id2
   heading: Collaborations
   description: description
   group: 
     - subheading: AAA
       subgroup: 
-        - img: assets/img/collaborations/synbio.jpg
+        - img: assets/img/collaborations/film3.jpg
           content:
             # link: http://synbio.mit.edu/news/
             # alt-link: 
           caption: aaa
           alt: bbb
-        - img: assets/img/collaborations/film3.jpg
+        - img: assets/img/collaborations/synbio.jpg
           content:
             # link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
             # alt-link: 
@@ -88,13 +87,13 @@
       # 
     - subheading: AAA
       subgroup:
-        - img: assets/img/collaborations/lights.jpg
+        - img: assets/img/collaborations/cuvettes.jpg
           content:
             # url: http://belcherlab.mit.edu/
             # alt-link:
           caption: YYY 
           alt: filler
-        - img: assets/img/collaborations/cuvettes.jpg
+        - img: assets/img/collaborations/lights.jpg
           content:
             # url: http://belcherlab.mit.edu/
             # alt-link:
@@ -105,7 +104,15 @@
   heading: Unplublishd work
   description: side projects which were never fully realized
   group:
-    -subheading: Something
+    - subheading: Something
+      subgroup:
+        - img: assets/img/side-projects/map.jpg
+        - img: assets/img/side-projects/timeline.jpg
+    - subheading: Something
+      subgroup:
+         - img: assets/img/side-projects/schematic.jpg
+         - img: assets/img/side-projects/cluster.jpg
+         - img: assets/img/side-projects/graphs.jpg
 
 - id: id4
   heading: Awards
@@ -163,9 +170,10 @@
   description: description
   group: 
     - subheading: BBB
-      img: assets/img/patent/patent.jpg
+      img: assets/img/patent/patent-cover.jpg
       content:
-        url: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20180237321.PGNR.
+        # url: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20180237321.PGNR.
+        pdf: assets/img/patent/patent.pdf
         alt-link: https://pdfaiw.uspto.gov/.aiw?Docid=20180237321
       caption: YYY 
       alt: filler
