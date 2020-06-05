@@ -9,7 +9,7 @@ layout : custom
 {% for section in site.data.sections %}
 <section class='section-body' id="{{ section.id }}">
     <div class='heading'>
-        <h1 class="heading--primary u-margin-top-medium u-margin-top-medium">
+        <h1 class="heading--primary">
             {{ section.heading }}
         </h1>
         <p class="heading--sub">
@@ -33,12 +33,19 @@ layout : custom
                     {% for subgroup in group.subgroup %}
                     <div class="carousel__item carousel__item--image carousel__item--fade">
                         <div class="figure">
+
+                            <!-- if no content is needed -->
+                            {% if subgroup.content == undefined %}
+                            <img class="figure__image-x" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}">
+                            {% else %}
                             <img class="figure__image" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}">
                             <p class="figure__caption">
                                 <a href="#{{ section.id }}-{{ group.subheading }}-sub-{{ forloop.index }}" class="figure__link">
                                     Learn<br>more
                                 </a>
                             </p>
+                            {% endif %}
+
                         </div>
                     </div>
                     {% endfor %}
@@ -57,9 +64,21 @@ layout : custom
                     {% endfor %}
                 </div>
 
+                <!-- paragraph -->
                 {% for subgroup in group.subgroup %}
-                <div class="carousel__item carousel__item--paragraph fade">
-                    <p class="paragraph paragraph--justalign">{{ subgroup.caption }}</p>
+                <div class="carousel__item carousel__item--paragraph carousel__item--fade">
+
+                    {% if subgroup.caption.list %}
+                    <p class="paragraph paragraph--justify u-margin-bottom-tiny u-center-text">{{ subgroup.caption.list.header }}</p>
+                    <ul class="group__text--list paragraph paragraph--left">
+                        {% for item in subgroup.caption.list.items %}
+                        <li>{{ item }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% elsif subgroup.caption.short %}
+                    <p class="group__text paragraph paragraph--justify">{{ subgroup.caption.short }}</p>
+                    {% endif %}
+                    
                 </div>
                 {% endfor %}
             </div>
@@ -67,19 +86,36 @@ layout : custom
             <!-- if only one image, just show it -->
             {% else %}
             <div class="figure">
+
+                <!-- if no content is needed -->
+                {% if group.content == undefined %}
+                <img class="figure__image-x" src="{{ site.baseurl }}/{{ group.img }}" alt="{{ group.alt }}">
+                {% else %}
                 <img class="figure__image" src="{{ site.baseurl }}/{{ group.img }}" alt="{{ group.alt }}">
                 <p class="figure__caption">
                     <a href="#{{ section.id }}-{{ group.subheading }}" class="figure__link">
                         Learn<br>more
                     </a>
                 </p>
+                {% endif %}
+
             </div> 
             
             <!-- fake dot container to buffer space -->
             <div class="carousel__dot-container"><span class="carousel__dots carousel__dots--hidden"></span></div>
             
             <!-- paragraph -->
-            <p class="paragraph paragraph--justalign">{{ group.caption }}</p>
+            {% if group.caption.list %}
+            <p class="paragraph paragraph--justify u-margin-bottom-tiny u-center-text">{{ group.caption.list.header }}</p>
+            <ul class="group__text--list paragraph paragraph--left">
+                {% for item in group.caption.list.items %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+            {% elsif group.caption.short %}
+            <p class="group__text paragraph paragraph--justify">{{ group.caption.short }}</p>
+            {% endif %}
+
             {% endif %}
         </div>
         {% endfor %}
@@ -94,8 +130,8 @@ layout : custom
 <!-- SECTIONS -->
 {% for section in site.data.sections %}
 <section class='section-body section-body--overlay' id='{{ section.id }}-overlay'>
-    <div class='heading'>
-        <h1 class="heading--primary u-margin-top-medium u-margin-top-medium">
+    <div class='heading u-margin-bottom-big'>
+        <h1 class="heading--primary">
             {{ section.heading }}
         </h1>
         <p class="heading--sub">
@@ -109,18 +145,34 @@ layout : custom
     <div class='group-horizontal'>
         <!-- heading -->
         <div class="group-horizontal__item">
-            <h2 class="heading-secondary heading-secondary--inline">{{ group.subheading }}</h2>
+            <h2 class="heading-secondary heading-secondary--inline">
+
+                <!-- if there is no subheading, take from the global heading -->
+                {% if group.subheading %}
+                {{ group.subheading }}-{{ forloop.index }}
+                {% else %}
+                {{ section.heading }}-{{ forloop.index }}
+                {% endif %}
+
+            </h2>
         </div>
 
         <!-- figure image -->
         <div class="group-horizontal__item">
             <div class="figure">
+
+                <!-- if no content is needed -->
+                {% if subgroup.content == undefined %}
+                <img class="figure__image-x" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}">
+                {% else %}
                 <img class="figure__image" src="{{ site.baseurl }}/{{ subgroup.img }}" alt="{{ subgroup.alt }}">
                 <p class="figure__caption">
                     <a href="#{{ section.id }}-{{ group.subheading }}-sub-{{ forloop.index }}" class="figure__link">
                         Learn<br>more
                     </a>
                 </p>
+                {% endif %}
+
             </div>
         </div>
 
@@ -130,9 +182,9 @@ layout : custom
             <a class="paragraph group-horizontal__link" href="{{ subgroup.content.url }}">
                 {{ subgroup.content.url }}
             </a>
-            {% elsif subgroup.alt-link %}
-            <a class="paragraph group-horizontal__link" href="{{ subgroup.alt-link }}">
-                {{ subgroup.alt-link }}
+            {% elsif subgroup.content.alt-link %}
+            <a class="paragraph group-horizontal__link" href="{{ subgroup.content.alt-link }}">
+                {{ subgroup.content.alt-link }}
             </a>            
             {% else %}
             <p class="paragraph group-horizontal__link">
@@ -148,18 +200,32 @@ layout : custom
         
         <!-- heading -->
         <div class="group-horizontal__item">
-            <h2 class="heading-secondary heading-secondary--inline">{{ group.subheading }}</h2>
+            <h2 class="heading-secondary heading-secondary--inline">
+
+                <!-- if there is no subheading, take from the global heading -->
+                {% if group.subheading %}
+                {{ group.subheading }}
+                {% else %}
+                {{ section.heading }}
+                {% endif %}
+                
+            </h2>
         </div>
 
         <!-- figure image -->
         <div class="group-horizontal__item">
             <div class="figure">
+                <!-- if no content is needed -->
+                {% if group.content == undefined %}
+                <img class="figure__image-x" src="{{ site.baseurl }}/{{ group.img }}" alt="{{ group.alt }}">
+                {% else %}
                 <img class="figure__image" src="{{ site.baseurl }}/{{ group.img }}" alt="{{ group.alt }}">
                 <p class="figure__caption">
                     <a href="#{{ section.id }}-{{ group.subheading }}" class="figure__link">
                         Learn<br>more
                     </a>
                 </p>
+                {% endif %}
             </div>
         </div>
 
@@ -169,9 +235,9 @@ layout : custom
             <a class="paragraph group-horizontal__link" href="{{ group.content.url }}">
                 {{ group.content.url }}
             </a>
-            {% elsif group.alt-link %}
-            <a class="paragraph group-horizontal__link" href="{{ group.alt-link }}">
-                {{ group.alt-link }}
+            {% elsif group.content.alt-link %}
+            <a class="paragraph group-horizontal__link" href="{{ group.content.alt-link }}">
+                {{ group.content.alt-link }}
             </a>
             {% else %}
             <p class="paragraph group-horizontal__link">
@@ -194,17 +260,17 @@ layout : custom
     <label for="display-toggle-checkbox" class="toggle__button">
         <div class="toggle__icon">
             <div class="toggle__side toggle__side--front">
-                <span class="toggle__text toggle__text--icon">
-                    <i class="fas fa-th"></i>
-                </span>
+                <svg class="toggle__text toggle__text--icon">
+                    <use xlink:href="/assets/img/icon/icons.svg#icon-grid"></use>
+                </svg>                
                 <span class="toggle__text toggle__text--annotation">
                     GRID
                 </span>
             </div>
             <div class="toggle__side toggle__side--back">
-                <span class="toggle__text toggle__text--icon">
-                    <i class="fas fa-list"></i>
-                </span>
+                <svg class="toggle__text toggle__text--icon">
+                    <use xlink:href="/assets/img/icon/icons.svg#icon-list"></use>
+                </svg>
                 <span class="toggle__text toggle__text--annotation">
                     LINK
                 </span>

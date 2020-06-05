@@ -1,8 +1,12 @@
 .carousel {
 
     position: relative;
-    margin: auto;
     z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 
     &__group {
         position: relative;
@@ -13,10 +17,9 @@
 
         // fade in animation
         &--fade {
-            -webkit-animation-name: fade;
-            -webkit-animation-duration: 1.5s;
             animation-name: fade;
-            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(.17,.67,.83,.67);
+            animation-duration: $carousel-fade;
         }
 
         // needed for js selection
@@ -26,6 +29,8 @@
 
         // this is needed for js selection
         &--paragraph {
+            flex-direction: column;
+            align-items: center;
             display: none;
         }
     }
@@ -37,28 +42,30 @@
         transform: translate(-50%, -50%);
         margin: 0;
         padding: 0;
-
+        
         width: 100%;
         max-width: $image-max-width;
-
+       
         &--prev,
         &--next {
             // position: relative;
             position: absolute;
 
-            // hack to align vertically
-            // also need zero padding and margin
+            // align vertically
+            // add more padding to buffer click area
             top: 50%;
             transform: translate(0, -50%);
-            vertical-align: middle;
+            line-height: 1;
+            padding: 1rem 0;
 
             // aesthetics
             font-size: $arrow-size;
             width: $arrow-size * 1.2;
             color: $color-arrow;
-            line-height: 0;
             font-weight: bold;
             cursor: pointer;
+
+            transition: all 0.3s;
         }
 
         &--prev {
@@ -91,6 +98,7 @@
     }
 
     &__dot-container {
+        text-align: center;
         margin: 1rem;
     }
 
@@ -117,5 +125,3 @@
         }
     }
 }
-
-// MEDIA QUERY, TEXT SIZE CHANGES

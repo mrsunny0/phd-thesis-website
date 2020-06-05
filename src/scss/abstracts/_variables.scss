@@ -32,8 +32,19 @@ $color-close-x: #000;
 $color-lines-light: #FFF;
 $color-lines-grey: #D3D3D3;
 
+// background alpha
+$background-alpha: 0.25;
+
 // highlight colors
 $color-highlight: #FF0000;
+
+// paragraph link color
+$color-paragraph-link: #0097e6;
+
+// --------------------------------------- //
+
+// animations
+$carousel-fade: 1.5s;
 
 // --------------------------------------- //
 
@@ -41,8 +52,10 @@ $color-highlight: #FF0000;
 $max-width: 1260px;
 $min-width: 768px;
 $section-margins: 4rem; 
-$section-margins-topbottom: 4rem; 
+$section-header-delimiter-margin: 6rem;
+$section-margins-topbottom: 8rem; 
 $section-margins-side: 6rem;
+$caption-width: 25vw; 
 
 // --------------------------------------- //
 
@@ -51,7 +64,6 @@ $icon-width: 5rem;
 $toggle-box-radius: 4.5rem;
 $arrow-size: 3rem;
 $backdrop-filter-px: 3px;
-
 $image-max-width: 20rem;
 
 // --------------------------------------- //

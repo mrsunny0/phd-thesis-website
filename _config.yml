@@ -1,5 +1,5 @@
 # Site settings
-contact: george.lele.sun@gmail.com
+contact: george.lele.sun-x@gmail.com
 company_name: Sun Websites
 company_website: https://www.sunwebsites.org
 personal_website: http://www.mrsunny.tech
@@ -11,11 +11,12 @@ author: George L. Sun
 title: mrsunny PhD
 header: George Sun's PhD
 description: Engineering yeast for heavy metal waste remediation
+  # A website summarizing the PhD Dissertation of George Sun in engineering yeast for heavy metal waste remediation for environmental water clean up.
 gh_page: https://mrsunny0.github.io/website-phd-thesis/
 background: 
   video: assets/video/pouring_beer.mp4
   image: assets/img/1000.png 
-  color: #1a222c 
+  color: 1a222c 
 
 # Google-analytics
 google-analytics:

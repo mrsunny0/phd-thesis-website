@@ -2,46 +2,54 @@
   heading: Research Areas
   description: description
   group: 
-    - subheading: Engineering sulfer-<br>reducing yeasts
+    - subheading: Engineering sulfer<br>reducing yeasts
       subgroup: 
         - img: assets/img/projects/sections.jpg
+          alt: sulfur reducing yeast
           content:
-            # url: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
-            # alt-link: www.google.com
-          caption: ccc
-          alt: bbb
+            pdf: 
+            alt-link: https://www.nature.com/articles/s41893-020-0478-9
+          caption:
+            short: 
+            popup:          
+          # 
         - img: assets/img/projects/vials.jpg
+          alt: yeast hyperaccumulators
           content:
-            # url: http://synbio.mit.edu/news/
-            # alt-link: www.google.com
-          caption: aaa
-          alt: bbb
-        - img: assets/img/projects/vials.jpg
+            pdf: 
+            alt-link: https://www.nature.com/articles/s41893-020-0478-9
+          caption:
+            short: 
+            popup:
+          # 
+        - img: assets/img/projects/columns.jpg
+          alt: yeast sponges
           content:
-            # url: https://www.linkedin.com/in/shalmaleepandit/
-            # alt-link: www.google.com
-          caption: ccc
-          alt: bbb
+            pdf: 
+            alt-link: https://www.nature.com/articles/s41893-020-0478-9
+          caption: 
+            short: 
+            popup:
       #
-    - subheading: Designing yeast hyperaccumulators
+    - subheading: Designing yeast<br>hyperaccumulators
       caption: YYY 
       subgroup: 
         - img: assets/img/projects/transporter.jpg
           content:
             # url: http://synbio.mit.edu/news/
-            # alt-link:
+            alt-link: https://www.nature.com/articles/s41467-019-13093-6
           caption: aaa
           alt: bbb
         - img: assets/img/projects/staining.jpg
           content:
             # url: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
-            # alt-link:
+            alt-link: https://www.nature.com/articles/s41467-019-13093-6
           caption: ccc
           alt: bbb
         - img: assets/img/projects/density.jpg
           content:
             # url: https://www.linkedin.com/in/shalmaleepandit/
-            # alt-link:
+            alt-link: https://www.nature.com/articles/s41467-019-13093-6
           caption: ccc
           alt: bbb
       # 
@@ -100,80 +108,80 @@
           caption: YYY 
           alt: filler
 
-- id: id3
-  heading: Unplublishd work
-  description: side projects which were never fully realized
-  group:
-    - subheading: Something
-      subgroup:
-        - img: assets/img/side-projects/map.jpg
-        - img: assets/img/side-projects/timeline.jpg
-    - subheading: Something
-      subgroup:
-         - img: assets/img/side-projects/schematic.jpg
-         - img: assets/img/side-projects/cluster.jpg
-         - img: assets/img/side-projects/graphs.jpg
+# - id: id3
+#   heading: Unplublishd work
+#   description: side projects which were never fully realized
+#   group:
+#     - subheading: Something
+#       subgroup:
+#         - img: assets/img/side-projects/map.jpg
+#         - img: assets/img/side-projects/timeline.jpg
+#     - subheading: Something
+#       subgroup:
+#          - img: assets/img/side-projects/schematic.jpg
+#          - img: assets/img/side-projects/cluster.jpg
+#          - img: assets/img/side-projects/graphs.jpg
 
-- id: id4
-  heading: Awards
-  description: description
-  group: 
-    - subheading: NSF Graduate Fellowship
-      img: assets/img/awards/nsf.jpg
-      content:
-        url: https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=6201
-      alt: filler
-      caption: YYY 
-      #
-    - subheading: MIT Presidential Fellowship
-      img: assets/img/awards/mit.jpg
-      content:
-        url: https://web.mit.edu/provost/presfellow/
-      alt: filler
-      caption: YYY 
-      #
-    - subheading: Bose<br>Fellowship
-      img: assets/img/awards/bose6.jpg
-      content:
-        url: https://bosefellows.mit.edu/
-      caption: YYY 
-      alt: filler
-      #
-    - subheading: CEHS<br>Training Grant
-      img: assets/img/awards/cehs.jpg
-      content:
-        # url: assets/img/awards/cehs.jpg
-      caption: f
-      alt: f
+# - id: id4
+#   heading: Awards
+#   description: description
+#   group: 
+#     - subheading: NSF Graduate Fellowship
+#       img: assets/img/awards/nsf.jpg
+#       content:
+#         url: https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=6201
+#       alt: filler
+#       caption: YYY 
+#       #
+#     - subheading: MIT Presidential Fellowship
+#       img: assets/img/awards/mit.jpg
+#       content:
+#         url: https://web.mit.edu/provost/presfellow/
+#       alt: filler
+#       caption: YYY 
+#       #
+#     - subheading: Bose<br>Fellowship
+#       img: assets/img/awards/bose6.jpg
+#       content:
+#         url: https://bosefellows.mit.edu/
+#       caption: YYY 
+#       alt: filler
+#       #
+#     - subheading: CEHS<br>Training Grant
+#       img: assets/img/awards/cehs.jpg
+#       content:
+#         # url: assets/img/awards/cehs.jpg
+#       caption: f
+#       alt: f
 
-- id: id5
-  heading: Thesis
-  description: description
-  group: 
-    - subheading: Dissertation
-      caption: YYY 
-      subgroup: 
-        - img: assets/img/thesis/form.jpg
-          content:
-            url: https://dspace.mit.edu/handle/1721.1/124184
-          caption: thesis
-          alt: bbb
-          # 
-        - img: assets/img/thesis/defense.jpg
-          content:
-            url: https://mrsunny0.github.io/phd-thesis/
-          caption: ccc
-          alt: dpsace
+# - id: id5
+#   heading: Thesis
+#   description: description
+#   group: 
+#     - subheading: Dissertation
+#       caption: YYY 
+#       subgroup: 
+#         - img: assets/img/thesis/form.jpg
+#           content:
+#             url: https://dspace.mit.edu/handle/1721.1/124184
+#           caption: thesis
+#           alt: bbb
+#           # 
+#         - img: assets/img/thesis/defense.jpg
+#           content:
+#             url: https://mrsunny0.github.io/phd-thesis/
+#           caption: ccc
+#           alt: dpsace
 
-- id: id6
-  heading: Patents
-  description: description
-  group: 
-    - subheading: BBB
-      img: assets/img/patent/patent-cover.jpg
-      content:
-        # url: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20180237321.PGNR.
-        pdf: assets/img/patent/patent.pdf
-        alt-link: https://pdfaiw.uspto.gov/.aiw?Docid=20180237321
-      caption: YYY 
-      alt: filler
+# - id: id6
+#   heading: Patents
+#   description: description
+#   group: 
+#     - subheading: BBB
+#       img: assets/img/patent/patent-cover.jpg
+#       content:
+#         # url: http://appft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&d=PG01&s1=20180237321.PGNR.
+#         pdf: assets/img/patent/patent.pdf
+#         alt-link: https://pdfaiw.uspto.gov/.aiw?Docid=20180237321
+#       caption: YYY 
+#       alt: filler
