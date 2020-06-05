@@ -36,19 +36,21 @@
       subgroup: 
         - img: assets/img/projects/transporter.jpg
           content:
-            # url: http://synbio.mit.edu/news/
+            pdf: http://synbio.mit.edu/news/
             alt-link: https://www.nature.com/articles/s41467-019-13093-6
           caption: aaa
           alt: bbb
+          # 
         - img: assets/img/projects/staining.jpg
           content:
-            # url: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+            pdf: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
             alt-link: https://www.nature.com/articles/s41467-019-13093-6
           caption: ccc
           alt: bbb
+          # 
         - img: assets/img/projects/density.jpg
           content:
-            # url: https://www.linkedin.com/in/shalmaleepandit/
+            pdf: https://www.linkedin.com/in/shalmaleepandit/
             alt-link: https://www.nature.com/articles/s41467-019-13093-6
           caption: ccc
           alt: bbb
@@ -57,20 +59,20 @@
       subgroup: 
         - img: assets/img/projects/data.jpg
           content: 
-            # url: https://www.linkedin.com/in/shalmaleepandit/
-            # alt-link: 
+            pdf: https://www.linkedin.com/in/shalmaleepandit/
+            alt-link: 
           caption: ccc
           alt: bbb
         - img: assets/img/projects/gs.jpg
           content: 
-            # url: http://synbio.mit.edu/news/
-            # alt-link: 
+            pdf: http://synbio.mit.edu/news/
+            alt-link: 
           caption: aaa
           alt: bbb
         - img: assets/img/projects/tem.jpg
           content: 
             # content: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
-            # alt-link: 
+            alt-link: 
           caption: ccc
           alt: bbb
 
@@ -81,32 +83,42 @@
     - subheading: AAA
       subgroup: 
         - img: assets/img/collaborations/film3.jpg
+          alt: figure SCOBY biofilm
           content:
-            # link: http://synbio.mit.edu/news/
-            # alt-link: 
-          caption: aaa
-          alt: bbb
+            pdf: 
+            alt-link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+          caption: 
+            short:
+            popup: 
+          # 
         - img: assets/img/collaborations/synbio.jpg
+          alt: synthetic biology render
           content:
-            # link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
-            # alt-link: 
-          caption: ccc
-          alt: bbb
+            pdf: 
+            alt-link: http://synbio.mit.edu/news/
+          caption: 
+            short:
+            popup:          
       # 
     - subheading: AAA
       subgroup:
         - img: assets/img/collaborations/cuvettes.jpg
+          alt: figure cuvettes
           content:
-            # url: http://belcherlab.mit.edu/
-            # alt-link:
-          caption: YYY 
-          alt: filler
+            pdf: 
+            alt-link:
+          caption:
+            short:
+            popup:  
+          # 
         - img: assets/img/collaborations/lights.jpg
+          alt: figure lights
           content:
-            # url: http://belcherlab.mit.edu/
-            # alt-link:
-          caption: YYY 
-          alt: filler
+            pdf: 
+            alt-link: 
+          caption: 
+            short:
+            popup:           
 
 # - id: id3
 #   heading: Unplublishd work
