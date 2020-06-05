@@ -120,19 +120,24 @@
             short:
             popup:           
 
-# - id: id3
-#   heading: Unplublishd work
-#   description: side projects which were never fully realized
-#   group:
-#     - subheading: Something
-#       subgroup:
-#         - img: assets/img/side-projects/map.jpg
-#         - img: assets/img/side-projects/timeline.jpg
-#     - subheading: Something
-#       subgroup:
-#          - img: assets/img/side-projects/schematic.jpg
-#          - img: assets/img/side-projects/cluster.jpg
-#          - img: assets/img/side-projects/graphs.jpg
+- id: id3
+  heading: Unplublishd work
+  description: side projects which were never fully realized
+  group:
+    - subheading: Something
+      subgroup:
+        - img: assets/img/side-projects/map.jpg
+          alt:
+        - img: assets/img/side-projects/timeline.jpg
+          alt:
+    - subheading: Something
+      subgroup:
+         - img: assets/img/side-projects/schematic.jpg
+           alt:         
+         - img: assets/img/side-projects/cluster.jpg
+           alt:         
+         - img: assets/img/side-projects/graphs.jpg
+           alt:         
 
 # - id: id4
 #   heading: Awards
