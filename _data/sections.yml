@@ -79,12 +79,12 @@
   heading: Collaborations
   description: description
   group: 
-    - subheading: AAA
+    - subheading: Programmable Living<br>Materials
       subgroup: 
         - img: assets/img/collaborations/film3.jpg
           alt: figure SCOBY biofilm
           content:
-            pdf: 
+            pdf: assets/img/manuscripts/scoby-manuscript-min.pdf
             alt-link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
           caption: 
             short:
@@ -93,13 +93,13 @@
         - img: assets/img/collaborations/synbio.jpg
           alt: synthetic biology render
           content:
-            pdf: 
-            alt-link: http://synbio.mit.edu/news/
+            pdf: assets/img/manuscripts/scoby-supplementary-min.pdf
+            alt-link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
           caption: 
             short:
             popup:          
       # 
-    - subheading: AAA
+    - subheading: Artificial<br>Photosynthesis
       subgroup:
         - img: assets/img/collaborations/cuvettes.jpg
           alt: figure cuvettes
