@@ -7,7 +7,7 @@
         - img: assets/img/projects/sections.jpg
           alt: sulfur reducing yeast
           content:
-            pdf: 
+            pdf: assets/img/manuscripts/sulfur-manuscript-min.pdf
             alt-link: https://www.nature.com/articles/s41893-020-0478-9
           caption:
             short: 
@@ -16,7 +16,7 @@
         - img: assets/img/projects/vials.jpg
           alt: yeast hyperaccumulators
           content:
-            pdf: 
+            pdf: assets/img/manuscripts/sulfur-figures-min.pdf
             alt-link: https://www.nature.com/articles/s41893-020-0478-9
           caption:
             short: 
@@ -25,7 +25,7 @@
         - img: assets/img/projects/columns.jpg
           alt: yeast sponges
           content:
-            pdf: 
+            pdf: assets/img/manuscripts/sulfur-supplementary-min.pdf
             alt-link: https://www.nature.com/articles/s41893-020-0478-9
           caption: 
             short: 
