@@ -58,19 +58,19 @@
       subgroup: 
         - img: assets/img/projects/data.jpg
           content: 
-            pdf: https://www.linkedin.com/in/shalmaleepandit/
+            pdf: assets/img/manuscripts/sponge-manuscript-min.pdf
             alt-link: 
           caption: ccc
           alt: bbb
         - img: assets/img/projects/gs.jpg
           content: 
-            pdf: http://synbio.mit.edu/news/
+            pdf: assets/img/manuscripts/sponge-figures-min.pdf
             alt-link: 
           caption: aaa
           alt: bbb
         - img: assets/img/projects/tem.jpg
           content: 
-            # content: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+            pdf: assets/img/manuscripts/sponge-supplementary-min.pdf
             alt-link: 
           caption: ccc
           alt: bbb
