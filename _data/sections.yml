@@ -123,20 +123,33 @@
   heading: Unplublishd work
   description: side projects which were never fully realized
   group:
-    - subheading: Something
+    - subheading: Review on<br>Waste Management
       subgroup:
         - img: assets/img/side-projects/map.jpg
           alt:
+          content: 
+            image: assets/img/side-projects/grid-map.jpg
+            alt-link:
+          # 
         - img: assets/img/side-projects/timeline.jpg
           alt:
-    - subheading: Something
+          content:
+            image: assets/img/side-projects/msw-timeline.jpg
+            alt-link:
+      # 
+    - subheading: Machine Learning<br>Metallo-Organic Bonds
       subgroup:
          - img: assets/img/side-projects/schematic.jpg
            alt:         
+           content:
+           # 
          - img: assets/img/side-projects/cluster.jpg
            alt:         
+           content:
+           # 
          - img: assets/img/side-projects/graphs.jpg
-           alt:         
+           alt:    
+           content:     
 
 # - id: id4
 #   heading: Awards
