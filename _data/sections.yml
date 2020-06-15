@@ -128,13 +128,13 @@
         - img: assets/img/side-projects/map.jpg
           alt:
           content: 
-            image: assets/img/side-projects/grid-map.jpg
+            image-contain: assets/img/side-projects/grid-map.jpg
             alt-link:
           # 
         - img: assets/img/side-projects/timeline.jpg
           alt:
           content:
-            image: assets/img/side-projects/msw-timeline.jpg
+            image-contain: assets/img/side-projects/msw-timeline.jpg
             alt-link:
       # 
     - subheading: Machine Learning<br>Metallo-Organic Bonds
@@ -142,14 +142,20 @@
          - img: assets/img/side-projects/schematic.jpg
            alt:         
            content:
+            image-contain: assets/img/side-projects/overall-schematic.jpg
+            alt-link: 
            # 
          - img: assets/img/side-projects/cluster.jpg
            alt:         
            content:
+            image-contain: assets/img/side-projects/cluster.jpg
+            alt-link: 
            # 
          - img: assets/img/side-projects/graphs.jpg
            alt:    
            content:     
+            image-contain: assets/img/side-projects/graphs.jpg
+            alt-link: 
 
 # - id: id4
 #   heading: Awards
