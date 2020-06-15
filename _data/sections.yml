@@ -32,25 +32,24 @@
             popup:
       #
     - subheading: Designing yeast<br>hyperaccumulators
-      caption: YYY 
       subgroup: 
         - img: assets/img/projects/transporter.jpg
           content:
-            pdf: http://synbio.mit.edu/news/
+            pdf: assets/img/manuscripts/transporter-manuscript-min.pdf
             alt-link: https://www.nature.com/articles/s41467-019-13093-6
           caption: aaa
           alt: bbb
           # 
         - img: assets/img/projects/staining.jpg
           content:
-            pdf: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
+            pdf: assets/img/manuscripts/transporter-figures-min.pdf
             alt-link: https://www.nature.com/articles/s41467-019-13093-6
           caption: ccc
           alt: bbb
           # 
         - img: assets/img/projects/density.jpg
           content:
-            pdf: https://www.linkedin.com/in/shalmaleepandit/
+            pdf: assets/img/manuscripts/transporter-supplementary-min.pdf
             alt-link: https://www.nature.com/articles/s41467-019-13093-6
           caption: ccc
           alt: bbb
