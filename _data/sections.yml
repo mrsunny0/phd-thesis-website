@@ -212,7 +212,7 @@
         - img: assets/img/thesis/defense.jpg
           alt: dpsace
           content:
-            image: # put image of family thesis here
+            image: assets/img/thesis/family-picture.jpg
           caption: 
             short:
             popup: 
