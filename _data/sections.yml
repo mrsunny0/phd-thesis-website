@@ -162,37 +162,62 @@
     - subheading: Review on<br>Waste Management
       subgroup:
         - img: assets/img/side-projects/map.jpg
-          alt:
+          alt: world map of waste
           content: 
             image-contain: assets/img/side-projects/grid-map.jpg
             alt-link:
+          caption: 
+            short: >
+              A world map representing water scarcity in the world (more scarce, the darker), in part due to poor water management and access to water technologies. 
+            popup: >
+
           # 
-        - img: assets/img/side-projects/timeline.jpg
-          alt:
+        - img: assets/img/side-projects/msw-timeline.jpg
+          alt: timeline of waste in usa
           content:
             image-contain: assets/img/side-projects/msw-timeline.jpg
             alt-link:
+          caption:
+            short: >
+              To understand the world's water problem, a case-study of the US 150 years of water management policy can show some habits and problems in today's water crisis.
+            popup:
+          
       # 
     - subheading: Machine Learning<br>Metallo-Organic Bonds
       subgroup:
-         - img: assets/img/side-projects/schematic.jpg
-           alt:         
-           content:
+        - img: assets/img/side-projects/schematic.jpg
+          alt: theoretical protein structure        
+          content:
             image-contain: assets/img/side-projects/overall-schematic.jpg
             alt-link: 
-           # 
-         - img: assets/img/side-projects/cluster.jpg
-           alt:         
-           content:
+          caption:
+            short: >
+              Almost 70% of proteins have some sort of metal-binding partner, and this behavior can be described if we look at the pattern of all of these proteins holistically.
+            popup: > 
+
+          # 
+        - img: assets/img/side-projects/cluster.jpg
+          alt: heat map       
+          content:
             image-contain: assets/img/side-projects/cluster.jpg
             alt-link: 
-           # 
-         - img: assets/img/side-projects/graphs.jpg
-           alt:    
-           content:     
+          caption:
+            short: >
+              Pattern recognition can be done using machine learning methods, in this case unsupervised algorithms to uncover patterns in metal protein binding.
+            popup: > 
+
+          # 
+        - img: assets/img/side-projects/graphs.jpg
+          alt:    
+          content:     
             image-contain: assets/img/side-projects/graphs.jpg
             alt-link: 
+          caption:
+            short: >
+              A new cost-loss algorithm was created to guide a semi-supervised machine learning model to understand which metal binding chelators were most favorable.
+            popup: >
 
+  # 
 - id: id4
   heading: Awards
   description: description
