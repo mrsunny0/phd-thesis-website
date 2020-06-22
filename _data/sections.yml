@@ -1,6 +1,6 @@
 - id: id1
   heading: Research Areas
-  description: description
+  description: Overarching topics that comprised my PhD research
   group: 
     - subheading: Engineering sulfer<br>reducing yeasts
       subgroup: 
