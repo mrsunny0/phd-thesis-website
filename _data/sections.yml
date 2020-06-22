@@ -1,6 +1,6 @@
 - id: id1
   heading: Research Areas
-  description: I pursued 3 distinct yet thematically similiar projects during my PhD
+  description: I pursued 3 distinct yet thematically similiar projects during my PhD in heavy metal chemistries and waste water management
   group: 
     - subheading: Engineering sulfer<br>reducing yeasts
       subgroup: 
@@ -107,7 +107,7 @@
 
 - id: id2
   heading: Collaborations
-  description: description
+  description: My PhD work was used in subsequent projects, and often in other multi-disciplinary fields
   group: 
     - subheading: Programmable<br>Living Materials
       subgroup: 
@@ -157,7 +157,7 @@
 
 - id: id3
   heading: Unplublishd work
-  description: side projects which were never fully realized
+  description: I investigated other projects, but due to constrints were never fully realized into full publications
   group:
     - subheading: Review on<br>Waste Management
       subgroup:
@@ -220,14 +220,14 @@
   # 
 - id: id4
   heading: Awards
-  description: description
+  description: Grants and funders which I had the fortunate opportunity to work with
   group: 
     - subheading: NSF Graduate<br>Fellowship
       img: assets/img/awards/nsf.jpg
       alt: NSF graduate award
       content:
       caption: 
-        short: <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=6201">linkout</a>
+        short: # <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=6201">linkout</a>
         popup: 
       #
     - subheading: MIT Presidential Fellowship
@@ -235,7 +235,7 @@
       alt: MIT Presidential Fellowship
       content:
       caption: 
-        short: <a href="https://web.mit.edu/provost/presfellow/">linkout</a>
+        short: # <a href="https://web.mit.edu/provost/presfellow/">linkout</a>
         popup:
       #
     - subheading: Bose<br>Fellowship
@@ -243,7 +243,7 @@
       alt: Bose Fellowship
       content:
       caption: 
-        short: <a href="https://bosefellows.mit.edu/">linkout</a>
+        short: # <a href="https://bosefellows.mit.edu/">linkout</a>
         popup:
       #
     - subheading: CEHS<br>Pilot Program
@@ -251,43 +251,52 @@
       alt: CEHS training grant
       content:
       caption: 
-        short: <a href="https://cehs.mit.edu/research/pilot-project-program">linkout</a>
+        short: # <a href="https://cehs.mit.edu/research/pilot-project-program">linkout</a>
         popup:
 
 - id: id5
   heading: Thesis
-  description: description
+  description: My thesis &mdash; a research summary that took almost 5 years to accomplish
   group: 
     - subheading: Dissertation
-      caption: YYY 
+      caption: dissertation 
       subgroup: 
         - img: assets/img/thesis/form.jpg
-          alt: PhD thesis
+          alt: thesis submission
           content:
             url: https://mrsunny0.github.io/phd-thesis/
             alt-link: https://dspace.mit.edu/handle/1721.1/124184
           caption: 
-            short: 
-            popup: 
+            short: >
+              My dissertation was approved by Professor K. Dane Wittrup (Chair), Cathy L. Drennan, and Angela  M. Belcher (Advisor). Along with my lab, this was a concerted effort.
+            popup: >
+              You can find my complete written thesis at MIT's publication 
+              <a href="https://dspace.mit.edu/">archive</a>, 
+              also known as DSpace. If you have any comments, concerns, or follow up information, please feel free to send me a message. I strongly believe that no era of research will completely end, so who knowns when this research will resurface in a new, or more invigorated application.
+
           # 
         - img: assets/img/thesis/defense.jpg
-          alt: dpsace
+          alt: thesis presentation
           content:
             image: assets/img/thesis/family-picture.jpg
           caption: 
-            short:
-            popup: 
+            short: >
+              Without my friends, family, and mentors, none of this would have been possible. Thank you to those who have helped me along the way.
+            popup: >
+
 
 - id: id6
   heading: Patents
-  description: description
+  description: Research should not be just research, my goal was to achieve a physical application in the real world
   group: 
-    - subheading: Engineered yeast as a method for bioremediation
+    - subheading: US2018/0237321
       img: assets/img/patent/patent-cover.jpg
       alt: patent
       content:
         pdf: assets/img/patent/patent.pdf
         alt-link: https://patents.google.com/patent/US20180237321A1/en
       caption: 
-        short:
-        popup: 
+        short: >
+          Patent titled, <i>Engineered yeast as a method for bioremediation</i> submitted on 2017-02-02 and assigned to MIT.
+        popup: >
+
