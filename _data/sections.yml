@@ -1,6 +1,6 @@
 - id: id1
   heading: Research Areas
-  description: Overarching topics that comprised my PhD research
+  description: I pursued 3 distinct yet thematically similiar projects during my PhD
   group: 
     - subheading: Engineering sulfer<br>reducing yeasts
       subgroup: 
@@ -10,8 +10,10 @@
             pdf: assets/img/manuscripts/sulfur-manuscript-min.pdf
             alt-link: https://www.nature.com/articles/s41893-020-0478-9
           caption:
-            short: 
-            popup:          
+            short: >
+              The image represents cross-sections of yeast that have bioaccumulated heavy metals on their surface, as well as internally.
+            popup: >
+              My first publication centered on using yeast to metabolically react with heavy metals, specifically those found in oil spills such as Cadmium (Cd), Lead (Pb), Mercury (Hg), etc. The inspiration came from what occurs naturally, biomineralization &mdash; much like our bones &mdash; but instead steer it towards heavy metal remediation. 
           # 
         - img: assets/img/projects/vials.jpg
           alt: yeast hyperaccumulators
@@ -19,8 +21,10 @@
             pdf: assets/img/manuscripts/sulfur-figures-min.pdf
             alt-link: https://www.nature.com/articles/s41893-020-0478-9
           caption:
-            short: 
-            popup:
+            short: >
+              Results of this work could be shown visibly by how clear waste water would become after several rounds of remediation using this technique.
+            popup: >
+
           # 
         - img: assets/img/projects/columns.jpg
           alt: yeast sponges
@@ -28,52 +32,78 @@
             pdf: assets/img/manuscripts/sulfur-supplementary-min.pdf
             alt-link: https://www.nature.com/articles/s41893-020-0478-9
           caption: 
-            short: 
-            popup:
+            short: >
+              To deploy in the real world, these engineered yeast can be packed much like traditional chromatography filters to sequester contaminates as they pass, as shown by the chance in color.
+            popup: >
+              
       #
     - subheading: Designing yeast<br>hyperaccumulators
       subgroup: 
         - img: assets/img/projects/transporter.jpg
+          alt: transporter protein structure
           content:
             pdf: assets/img/manuscripts/transporter-manuscript-min.pdf
             alt-link: https://www.nature.com/articles/s41467-019-13093-6
-          caption: aaa
-          alt: bbb
+          caption:
+            short: >
+              This is a protein structure of a metal transporter that was strategically engineered to uptake heavy metals inside yeast.
+            popup: >
           # 
         - img: assets/img/projects/staining.jpg
+          alt: stained organelles
           content:
             pdf: assets/img/manuscripts/transporter-figures-min.pdf
             alt-link: https://www.nature.com/articles/s41467-019-13093-6
-          caption: ccc
-          alt: bbb
+          caption: 
+            short: >
+              To prove utilization of engineered transporters, yeast were stained with several markers to show transporter expression, namely on their cell membrane and vacuoles.
+            popup: > 
+
           # 
         - img: assets/img/projects/density.jpg
+          alt: density centrifugation
           content:
             pdf: assets/img/manuscripts/transporter-supplementary-min.pdf
             alt-link: https://www.nature.com/articles/s41467-019-13093-6
-          caption: ccc
-          alt: bbb
+          caption: 
+            short: >
+              To rationally create combinatorial transporter mutations, a clever density-based assay was used to filter yeast which accumulated more metal, or alternatively heavier.
+            popup: >
+
       # 
     - subheading: Creating<br>yeast sponges 
       subgroup: 
         - img: assets/img/projects/data.jpg
+          alt: data bars
           content: 
             pdf: assets/img/manuscripts/sponge-manuscript-min.pdf
             alt-link: 
-          caption: ccc
-          alt: bbb
+          caption: 
+            short: >
+              Proteins were engineered to act as anchors for heavy metal collection. Data showed that these modifications enhanced metal capture by 3-5 fold.
+            popup: >
+
+          # 
         - img: assets/img/projects/gs.jpg
+          alt: GS protein structure
           content: 
             pdf: assets/img/manuscripts/sponge-figures-min.pdf
             alt-link: 
-          caption: aaa
-          alt: bbb
+          caption: 
+            short: >
+              We worked with the elegantly structured synthetase family, shortly known as GS which structure allowed for 12 identical copies of potential heavy metal binding partners.
+            popup: >
+
+          # 
         - img: assets/img/projects/tem.jpg
+          alt: TEM images
           content: 
             pdf: assets/img/manuscripts/sponge-supplementary-min.pdf
             alt-link: 
-          caption: ccc
-          alt: bbb
+          caption: 
+            short: >
+              The proteins were engineered with anchors, as well as the innate ability to assemble into stalk-like strucutres, further increasing capacity and easing capture due to their increased density.
+            popup:
 
 - id: id2
   heading: Collaborations
