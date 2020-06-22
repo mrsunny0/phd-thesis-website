@@ -109,7 +109,7 @@
   heading: Collaborations
   description: description
   group: 
-    - subheading: Programmable Living<br>Materials
+    - subheading: Programmable<br>Living Materials
       subgroup: 
         - img: assets/img/collaborations/film3.jpg
           alt: figure SCOBY biofilm
@@ -117,16 +117,18 @@
             pdf: assets/img/manuscripts/scoby-manuscript-min.pdf
             alt-link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
           caption: 
-            short:
+            short: >
+              SCOBY's are symbiotic films of yeast and bacteria (normally found in Kombucha), these films were engineered to instead soak up heavy metals.
             popup: 
           # 
-        - img: assets/img/collaborations/synbio.jpg
+        - img: assets/img/collaborations/synbio-circle.jpg
           alt: synthetic biology render
           content:
             pdf: assets/img/manuscripts/scoby-supplementary-min.pdf
             alt-link: https://www.biorxiv.org/content/10.1101/2019.12.20.882472v1.full.pdf
           caption: 
-            short:
+            short: >
+              The collaboration was made possible through MIT's Synthetic Biology Center with Zijay Tang of Tim Lu's Lab. I highly recommend following their work.
             popup:          
       # 
     - subheading: Artificial<br>Photosynthesis
@@ -137,8 +139,10 @@
             pdf: 
             alt-link:
           caption:
-            short:
-            popup:  
+            short: >
+              Surprisingly, heavy metals which were removed and converted into mineralized products had light-emitting properties which could interestingly be used for photosynthetic and energy applications.
+            popup: >
+              Currently drafting manuscript...
           # 
         - img: assets/img/collaborations/lights.jpg
           alt: figure lights
@@ -146,8 +150,10 @@
             pdf: 
             alt-link: 
           caption: 
-            short:
-            popup:           
+            short: >
+              This work is made possible with Shalmalee Pandit from the Belcher Lab, with her innovative idea of taking my work of biomineralized heavy metals and recycling them as reusable energy sources.
+            popup: >
+              Currently drafting manuscript...          
 
 - id: id3
   heading: Unplublishd work
